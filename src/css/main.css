@@ -42,3 +42,12 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  margin: auto;
+  max-width: 390px;
+}
+
+body {
+  font-family: 'Open Sans';
+}
