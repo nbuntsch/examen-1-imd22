@@ -76,18 +76,20 @@ h4 {
 
 .movie-article-big {
   background-color: #f6f6f6;
-  margin: 0 15px 45px 15px;
   box-shadow: 0 5px 0 0 #783df6;
   font-size: 20px;
 }
 
 .movie-article-big h4 {
   line-height: 24px;
+  font-weight: 600px;
+  margin: ;
   padding-left: 15px;
 }
 
 .movie-article-big p {
   line-height: 28px;
+  font-weight: 400px;
   padding: 0px 15px 15px 15px;
 }
 
