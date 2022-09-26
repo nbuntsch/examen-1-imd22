@@ -57,7 +57,18 @@ video {
   padding: 10px 20px;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.poster {
+  padding-top: 97px;
+}
+
 .container {
+  background-color: var(--white);
   list-style: none;
   display: flex;
   flex-direction: row;
