@@ -123,3 +123,34 @@ header nav ul {
 .article-line-up:last-of-type {
   margin: 0;
 }
+
+.member-hiring {
+  background-color: var(--color-main);
+  color: var(--color-second);
+}
+
+.member-hiring-card {
+  padding: 15px;
+}
+
+.member-hiring-card a {
+  background-color: var(--color-second);
+  color: var(--color-main);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-size: 20px;
+  margin: 30px 0 0;
+  display: inline-block;
+}
+
+.member-hiring-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+
+.member-hiring-card p {
+  font-size: 20px;
+  margin: 0;
+}
