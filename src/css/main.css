@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  max-width: 390px;
 }
 
 body {
@@ -28,6 +29,17 @@ body {
   line-height: 1.25;
 }
 
+h2 {
+  font-family: "Open Sans bold", sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans semi-bold", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
 a {
   color: inherit;
 }
@@ -47,7 +59,29 @@ video {
 nav {
   text-align: center;
   display: flex;
+  padding: 15px 53.5px 15px 60.5px;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 16px;
+}
+
+.movie-card {
+  margin: 0 15px;
+  background-color: ;
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  padding-bottom: 45px;
+}
+
+.membership-section {
+  background-color: black;
+  color: white;
+}
+
+.membership-section img {
+  padding-bottom: 16px;
 }
 /* ====================================
 // base rules
