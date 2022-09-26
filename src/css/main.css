@@ -117,23 +117,17 @@ h2 {
   margin: 45px 290px 30px 15px;
 }
 
-article {
-  background: #f6f6f6;
-  font-size: 16px;
-  color: #000000;
-  font-size: 16px;
-  color: #000000;
-  line-height: 20px;
-  margin: 15px;
-}
-
 h3 {
   margin: 15px;
 }
 
-.article-desriptions {
+.element-desriptions {
   margin: 15px;
   display: flex;
+}
+
+.img-films {
+  margin: 15px;
 }
 
 .end-link {
@@ -157,4 +151,16 @@ h3 {
 footer {
   background: #f9dde7;
   padding: 45px 15px 30px 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #000000;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  margin: 15px;
 }
