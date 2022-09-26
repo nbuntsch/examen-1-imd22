@@ -46,6 +46,7 @@ video {
 
 .logo-header {
   background-color: black;
+  margin: auto;
 }
 
 .links {
@@ -53,6 +54,7 @@ video {
   margin: 15px 53.5px 15px 53.5px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  line-height: 28px;
 }
 
 h1 {
@@ -99,4 +101,18 @@ h1 {
   line-height: 28px;
   font-size: 20px;
   line-height: 28px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  font-size: 20px;
+  padding: 15px 30px 15px 30px;
+  margin: 30px 218px 15px 15px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 45px 290px 30px 15px;
 }
