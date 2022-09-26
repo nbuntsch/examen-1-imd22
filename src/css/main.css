@@ -48,7 +48,7 @@ a {
 
 img,
 video {
-  max-inline-size: 100%;
+  width: 100%;
   block-size: auto;
   vertical-align: middle;
 }
@@ -137,4 +137,10 @@ article {
   right: 0;
   background-color: var(--accent-main);
   padding: 5px 10px;
+}
+
+.dark-article img {
+  height: 355px;
+  position: relative;
+  object-fit: cover;
 }
