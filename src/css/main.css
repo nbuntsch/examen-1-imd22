@@ -7,6 +7,7 @@
   --white: #ffffff;
   --light-grey: #f6f6f6;
   --purple: #783df6;
+  --pink: #f9dde7;
 }
 
 /* ====================================
@@ -171,4 +172,30 @@ h2 {
   background-color: var(--black);
   color: var(--white);
   margin: 0 113px 45px;
+}
+
+footer {
+  background-color: var(--pink);
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer h3 {
+  font-weight: 600;
+  line-height: 20px;
+  border-top: solid 3px var(--black);
+  padding: 10px 0 5px;
+  font-size: 16px;
+  width: 175px;
 }
