@@ -39,6 +39,16 @@ video {
   vertical-align: middle;
 }
 
+.header-background {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
 /* ====================================
 // base rules
 // ==================================== */
