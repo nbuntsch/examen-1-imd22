@@ -50,6 +50,7 @@ h3 {
 p {
   font-family: "Open Sans", sans-serif;
 }
+
 a {
   color: inherit;
 }
@@ -102,8 +103,20 @@ p {
 .membership-section {
   background-color: black;
   color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
+.membership-section h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.membership-section p {
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 30px;
+}
 .membership-section img {
   padding-bottom: 16px;
 }
