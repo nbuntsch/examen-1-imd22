@@ -136,7 +136,7 @@ header nav ul {
   padding: 15px;
 }
 
-.member-hiring-card a {
+.member-hiring-card .member-hire-button {
   background-color: var(--color-second);
   color: var(--color-main);
   text-decoration: none;
@@ -145,8 +145,15 @@ header nav ul {
   font-size: 20px;
   margin: 30px 0 0;
   display: inline-block;
+  transition: color 0.3s, background-color 0.3s;
 }
 
+.member-hire-button:hover,
+.member-hire-button:active,
+.member-hire-button:focus {
+  background-color: var(--color-enhanced);
+  color: var(--color-second);
+}
 .member-hiring-card h3 {
   font-size: 24px;
   font-weight: 600;
@@ -240,4 +247,13 @@ footer {
 
 .link-ls li:last-of-type {
   margin-bottom: 0;
+}
+
+.hidden-tmp,
+.hidden-tmp-2 {
+  display: none;
+}
+
+.show {
+  display: block;
 }
