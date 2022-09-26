@@ -65,6 +65,10 @@ a {
 
 /* MAIN */
 
+.main-container h2 {
+  font-size: 32px;
+}
+
 .main-container {
   padding-top: 45px;
   margin: 0 20px 0 20px;
@@ -101,10 +105,43 @@ main {
 }
 
 .category-container {
-  padding-bottom: 45px;
+  padding-bottom: 50px;
 }
 
-img,
+.img-bfi {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.BFI-container {
+  color: white;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.content-bfi {
+  margin: 20px;
+  background: black;
+  align-content: center;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  font-weight: bold;
+}
+
+.button-container {
+  padding-top: 50px;
+}
+
+.container-small-info {
+  background-color: red;
+}
+
+content-container img,
 video {
   max-inline-size: 100%;
   block-size: auto;
