@@ -139,8 +139,20 @@ article {
   padding: 5px 10px;
 }
 
+.dark-article {
+  position: relative;
+}
+
 .dark-article img {
   height: 355px;
   position: relative;
   object-fit: cover;
+}
+
+.dark-rectangle-overlay {
+  position: absolute;
+  top: 0px;
+  width: 360px;
+  height: 265px;
+  background: rgba(0, 0, 0, 0.7);
 }
