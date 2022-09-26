@@ -43,6 +43,13 @@ video {
 // base rules
 // ==================================== */
 
+/* Colors references:
+#000
+#f6f6f6
+#783DF6
+#F9DDE7
+*/
+
 html {
   margin: auto;
   max-width: 390px;
