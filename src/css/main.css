@@ -147,6 +147,28 @@ h2 {
   text-decoration: none;
 }
 
+/* Films */
+
+.films-section {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 53px 0 36px 15px;
+}
+
+.films-menu {
+  /*padding: 0px 30px 45px 15px;*/
+  display: flex;
+  flex-direction: row;
+  width: 250%;
+}
+
+.movie-choice {
+  background-color: #F6F6F6;
+  max-width: 175px;
+  max-height: 197px;
+  margin: 0 15px 15px;
+}
 
 footer {
   background-color: #f9dde7;
