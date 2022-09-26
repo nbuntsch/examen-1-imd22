@@ -2,22 +2,24 @@
 // css variables
 // ==================================== */
 
-:root {
+/*:root {
 }
-
+*/
 /* ====================================
 // reset rules
 // ==================================== */
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+*/
 html {
   font-size: 16px;
   max-width: 390px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -28,17 +30,6 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
-}
-
-a {
-  color: inherit;
-}
-
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
 }
 
 a {
@@ -55,6 +46,7 @@ video {
 
 h1 {
   background-color: black;
+  padding: 10px 20px;
 }
 
 h2 {
@@ -85,6 +77,18 @@ h4 {
 .movie-article-big {
   background-color: #f6f6f6;
   margin: 0 15px 45px 15px;
+  box-shadow: 0 5px 0 0 #783df6;
+  font-size: 20px;
+}
+
+.movie-article-big h4 {
+  line-height: 24px;
+  padding-left: 15px;
+}
+
+.movie-article-big p {
+  line-height: 28px;
+  padding: 0px 15px 15px 15px;
 }
 
 .special-black-bg-article {
@@ -98,15 +102,53 @@ h4 {
   line-height: 28px;
 }
 
+.special-black-bg-article h3 {
+  padding-left: 15px;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 28px;
+}
+
+.special-black-bg-article p {
+  padding: 0px 15px 30px 15px;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+
 .button-1 {
   color: black;
   font-size: 20px;
   font-weight: 600px;
   line-height: 24px;
   background-color: white;
-  border: white solid;
   padding: 15px 30px;
-  margin: 30px 218px 15px 15px;
+  margin-left: 0px 0px 15px 15px;
+}
+
+.four-small-article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-article {
+  background-color: #f6f6f6;
+  max-width: 175px;
+  margin: 0px 15px 10px 15px;
+}
+
+.small-article h5 {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 20px;
+}
+
+.small-article p {
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 22px;
 }
 
 .button-2 {
@@ -116,12 +158,17 @@ h4 {
   font-weight: 600px;
   line-height: 24px;
   padding: 15px 30px;
-  justify-content: center;
 }
 
 footer {
   background-color: #f9dde7;
 }
+
+.two-blocks-footer-text {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
