@@ -71,5 +71,49 @@ h1 img {
 }
 
 nav {
-  padding: ;
+  padding: 15px 45px 15px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+nav a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.programme-explorer {
+  margin: 45px 15px 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.programme-infos {
+  margin-bottom: 45px;
+  background-color: #F6F6F6;
+}
+
+.programme-infos p,h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.news-infos {
+  padding: 15px 14px;
+}
+
+.programme-infos h3 {
+  font-weight: 600;
+  padding-bottom: 13px;
+}
+
+.news-infos-special {
+  padding-bottom: 11px;
 }
