@@ -100,7 +100,7 @@ p {
   padding-bottom: 30px;
 }
 
-.button {
+.membership-card .button {
   background-color: white;
   font-weight: 700;
   font-size: 20px;
@@ -112,4 +112,51 @@ p {
 
 .membership-card p {
   margin-bottom: 30px;
+}
+
+.films-card {
+  background-color: #f6f6f6;
+  margin: 0px 0px 10px 10px;
+}
+
+.films-card p {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 15px 0px 15px;
+}
+
+.films-containers {
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+.films-presentation {
+  margin: 0px 15px;
+}
+
+.button {
+  background-color: black;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+  padding: 15px 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  background-color: #f9dde7;
+}
+
+footer div {
+  border-top: solid black 5px;
 }
