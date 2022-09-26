@@ -1,5 +1,5 @@
 /* ====================================
-// css variables
+// css variabl¡es
 // ==================================== */
 
 :root {
@@ -26,6 +26,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: "Open Sans", sans-serif;
+  max-width: 390px;
 }
 
 a {
@@ -47,12 +49,38 @@ header {
 
 nav {
   word-spacing: 20px;
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
   line-height: 19px;
   padding: 15px 53px;
+}
+
+h1 {
+  margin: 45px 160px 5px 0;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.text-image h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+article {
+  margin: 15px;
+}
+
+section {
+  margin-top: 40px;
+  border-bottom: 5px solid #783df6;
+}
+
+.text-image {
+  background-color: #f6f6f6;
+  padding: 15px;
 }
 
 /* ====================================
