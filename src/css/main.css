@@ -151,7 +151,7 @@ article {
 
 .dark-rectangle-overlay {
   position: absolute;
-  top: 0px;
+  top: 50%;
   width: 360px;
   height: 265px;
   background: rgba(0, 0, 0, 0.7);
