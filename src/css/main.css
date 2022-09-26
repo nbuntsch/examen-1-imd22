@@ -138,10 +138,37 @@ main {
 }
 
 .container-small-info {
-  background-color: red;
+  margin: 0 20px 0 20px;
 }
 
-content-container img,
+.small-categories {
+  background-color: #f6f6f6;
+  margin: 0 5px 0;
+  text-align: left;
+}
+
+.small-text a {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.small-text p {
+  padding-top: 15px;
+  padding: 15px;
+}
+
+.content-container {
+  display: flex;
+
+  justify-content: center;
+}
+
+.small-categories img {
+  max-width: 175px;
+  padding-bottom: 15px;
+}
+
+img,
 video {
   max-inline-size: 100%;
   block-size: auto;
