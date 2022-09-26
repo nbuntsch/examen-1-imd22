@@ -110,8 +110,22 @@ article {
 }
 
 .big-article {
-  margin: 30px 0 0 0;
+  margin: 30px 0 30px 0;
   position: relative;
+  box-shadow: 0 5px 0 0 var(--accent-main);
+}
+
+.big-article h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 15px;
+}
+
+.big-article p {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0px 15px 15px 15px;
 }
 
 .colored-section-title {
