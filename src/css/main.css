@@ -73,6 +73,8 @@ a {
 .programme-section {
   background-color: #783df6;
   color: white;
+  position: absolute;
+  padding: 5px 10px;
 }
 
 .subtitle {
@@ -96,6 +98,10 @@ h2 {
 
 main {
   padding-top: 100px;
+}
+
+.category-container {
+  padding-bottom: 45px;
 }
 
 img,
