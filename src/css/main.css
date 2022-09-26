@@ -155,8 +155,31 @@ h4 {
 
 footer {
   background-color: #f9dde7;
+  padding: 30px 15px;
 }
 
 footer div {
   border-top: solid black 5px;
+  margin: 0px 10px 0px 0px;
+  width: 170px;
+  /* pas sur qu on puisse faire ca width*/
+}
+
+.footer-section-container {
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+footer h4 {
+  padding: 15px 0px;
+}
+
+.section-element-container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  margin-top: 10px;
+  background-color: red;
 }
