@@ -114,6 +114,22 @@ h2 {
   padding-bottom: 15px;
 }
 
+article {
+  position: relative;
+}
+
+.info {
+  color: var(--white);
+  background-color: var(--purple);
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .membership {
   background-color: var(--black);
   color: var(--white);
