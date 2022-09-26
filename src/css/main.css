@@ -88,6 +88,14 @@ header nav ul {
   padding: 15px 60px;
 }
 
+header nav ul li {
+  margin-right: 22px;
+}
+
+header nav ul li:last-of-type {
+  margin-right: 0;
+}
+
 .nav-item a {
   text-decoration: none;
   font-weight: bold;
@@ -95,7 +103,7 @@ header nav ul {
 
 .line-up,
 .films {
-  padding: 45px 15px;
+  padding: 45px 15px 40px;
 }
 
 .line-up h2,
@@ -103,10 +111,19 @@ header nav ul {
   font-size: 32px;
 }
 
+.line-up h2 {
+  margin-bottom: 30px;
+  line-height: 38px;
+}
+
 .article-line-up {
   background-color: var(--color-sat);
   border-bottom: solid 5px var(--color-enhanced);
-  margin: 45px 0;
+  margin: 0 0 38px;
+}
+
+.article-line-up p {
+  line-height: 28px;
 }
 
 .data-article {
@@ -157,16 +174,19 @@ header nav ul {
 .member-hiring-card h3 {
   font-size: 24px;
   font-weight: 600;
+  line-height: 28px;
   margin: 0 0 15px;
 }
 
 .member-hiring-card p {
   font-size: 20px;
   margin: 0;
+  line-height: 28px;
 }
 
 .films h2 {
-  margin: 0 0 30px;
+  margin: 0 0 27px;
+  line-height: 38px;
 }
 
 .films .container {
@@ -196,11 +216,17 @@ header nav ul {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 15px;
+  line-height: 20px;
 }
 
 .article-films p {
   margin-bottom: 15px;
   font-size: 16px;
+  line-height: 22px;
+}
+
+.films {
+  padding: 45px 15px 45px;
 }
 
 .films a {
@@ -218,12 +244,12 @@ footer {
   background-color: var(--color-enhanced-2);
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 20px 15px;
 }
 
 .link-ls {
   border-top: solid 3px var(--color-main);
-  margin-right: 10px;
+  margin: 10px 10px 0 0;
 }
 
 .link-ls:last-of-type {
@@ -237,7 +263,7 @@ footer {
 .link-ls h3 {
   font-size: 16px;
   font-weight: 600;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .link-ls li {
@@ -256,4 +282,9 @@ footer {
 
 .show {
   display: block;
+}
+
+.show-all {
+  user-select: none;
+  cursor: pointer;
 }

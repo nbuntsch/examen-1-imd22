@@ -8,7 +8,3 @@ var showElements = function () {
 };
 
 button.addEventListener("click", showElements);
-
-console.log(button);
-console.log(filmsElements);
-console.log(showElements);
