@@ -59,7 +59,12 @@ a {
 }
 
 header {
-  width: 375px;
+  position: fixed;
+  background-color: white;
+}
+
+main {
+  padding-top: 100px;
 }
 
 img,
