@@ -47,6 +47,7 @@ video {
 .logo-header {
   background-color: black;
   margin: auto;
+  padding: 10px 20px;
 }
 
 .links {
@@ -115,4 +116,23 @@ h1 {
 h2 {
   font-size: 32px;
   margin: 45px 290px 30px 15px;
+}
+
+article {
+  background: #f6f6f6;
+  font-size: 16px;
+  color: #000000;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  margin: 15px;
+}
+
+h3 {
+  margin: 15px;
+}
+
+.article-desriptions {
+  margin: 15px;
+  display: flex;
 }
