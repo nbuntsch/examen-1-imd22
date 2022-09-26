@@ -9,6 +9,7 @@
   --color-second: #fff;
   --color-sat: #f6f6f6;
   --color-enhanced: #783df6;
+  --color-enhanced-2: #f9dde7;
   --font-main: "Open Sans", sans-serif;
 }
 
@@ -204,4 +205,39 @@ header nav ul {
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
+}
+
+footer {
+  background-color: var(--color-enhanced-2);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.link-ls {
+  border-top: solid 3px var(--color-main);
+  margin-right: 10px;
+}
+
+.link-ls:last-of-type {
+  margin-right: 0;
+}
+
+.link-ls ul {
+  list-style-type: none;
+}
+
+.link-ls h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.link-ls li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.link-ls li:last-of-type {
+  margin-bottom: 0;
 }
