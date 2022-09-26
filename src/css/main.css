@@ -47,3 +47,28 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.sticky-banner {
+  position: fixed;
+  background-color: black;
+}
+
+.banner-background {
+  width: 350px;
+  background-color: black;
+  margin: 10px 20px;
+}
+
+.pushing-container {
+  padding-top: 95px;
+}
+
+.nav-container {
+  background-color: white;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
