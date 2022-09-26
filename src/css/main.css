@@ -120,6 +120,7 @@ header nav ul li:last-of-type {
   background-color: var(--color-sat);
   border-bottom: solid 5px var(--color-enhanced);
   margin: 0 0 38px;
+  cursor: pointer;
 }
 
 .article-line-up p {
@@ -163,6 +164,8 @@ header nav ul li:last-of-type {
   margin: 30px 0 0;
   display: inline-block;
   transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+  user-select: none;
 }
 
 .member-hire-button:hover,
@@ -201,6 +204,7 @@ header nav ul li:last-of-type {
   background-color: var(--color-sat);
   width: 175px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .article-films img {
@@ -269,6 +273,8 @@ footer {
 .link-ls li {
   font-size: 16px;
   margin-bottom: 10px;
+  user-select: none;
+  cursor: pointer;
 }
 
 .link-ls li:last-of-type {
