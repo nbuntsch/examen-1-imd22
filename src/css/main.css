@@ -36,6 +36,11 @@ body {
 
 /* HEADER */
 
+header {
+  position: fixed;
+  background-color: white;
+}
+
 .header-top {
   background-color: black;
   width: 390px;
@@ -58,9 +63,20 @@ a {
   width: 70px;
 }
 
-header {
-  position: fixed;
-  background-color: white;
+/* MAIN */
+
+.main-container {
+  padding-top: 45px;
+  margin: 0 20px 0 20px;
+}
+
+.programme-section {
+  background-color: #783df6;
+  color: white;
+}
+
+h2 {
+  text-align: left;
 }
 
 main {
