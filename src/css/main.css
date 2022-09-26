@@ -44,10 +44,99 @@ video {
 // base rules
 // ==================================== */
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 header h1 {
   background: black;
 }
 
 header img {
   width: 350px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.program-article {
+  background: #f6f6f6;
+  border-bottom: 2px solid #783df6;
+}
+
+.program {
+  position: absolute;
+  color: white;
+  background: #783df6;
+  right: 0;
+  font-weight: 600;
+}
+
+.join-membership-info {
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, 0.701);
+}
+
+.join-membership-info a {
+  color: black;
+  background: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.film-section .container {
+  display: flex;
+}
+
+.film-section article {
+  background: #f6f6f6;
+  width: 175px;
+}
+
+.film-section article h1 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.film-section article p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.film-section-button {
+  color: white;
+  background: black;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+footer div {
+  border-top: 2px solid black;
+}
+
+footer div h1 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+footer div p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+footer {
+  background: #f9dde7;
+  display: flex;
+  flex-direction: row;
 }
