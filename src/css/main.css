@@ -106,7 +106,6 @@ h1 {
 
 .link {
   display: flex;
-  justify-content: center;
   background: #ffffff;
   font-size: 20px;
   padding: 15px 30px 15px 30px;
@@ -135,4 +134,27 @@ h3 {
 .article-desriptions {
   margin: 15px;
   display: flex;
+}
+
+.end-link {
+  display: flex;
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 30px 15px 30px;
+  margin: 10px 128px 30px 128px;
+}
+
+.end-descriptions {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.end-descriptions-rest {
+  font-size: 16px;
+}
+
+footer {
+  background: #f9dde7;
+  padding: 45px 15px 30px 15px;
 }
