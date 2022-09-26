@@ -1,0 +1,232 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+/*
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  max-width: 390px;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.nav-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 50px 15px 53px;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  font-family: OpenSans-Bold;
+  background-color: white;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.affiche {
+  padding-top: 99px;
+  margin-bottom: 45px;
+}
+
+h2 {
+  font-family: OpenSans-Bold;
+  font-size: 32px;
+  color: #000000;
+  line-height: 38px;
+  margin: 0 15px 30px 15px;
+}
+
+.arti {
+  margin: 0 15px 15px 15px;
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  position: relative;
+}
+
+h4 {
+  position: absolute;
+  background: #783df6;
+  font-family: OpenSans-SemiBold;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 14px;
+  padding: 5px 10px;
+  top: 0;
+  right: 0;
+}
+
+h3 {
+  font-family: OpenSans-SemiBold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  margin: 15px 15px 15px 15px;
+}
+
+.arti p {
+  font-family: OpenSans-Regular;
+  font-size: 20px;
+  color: #000000;
+  line-height: 28px;
+  padding-bottom: 15px;
+  margin: 0 15px 0 15px;
+}
+
+.special {
+  margin-top: 45px;
+}
+
+.arti-bfi {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.arti-bfi h3 {
+  font-family: OpenSans-SemiBold;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 28px;
+  margin: 0;
+}
+
+.arti-bfi p {
+  font-family: OpenSans-Regular;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 28px;
+  margin: 10px 0 31px 0;
+}
+
+.arti-bfi a {
+  font-family: OpenSans-SemiBold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  background: #ffffff;
+  padding: 15px 30px;
+}
+
+.arti-bfi a:active {
+  background-color: #783df6;
+  color: #ffffff;
+}
+
+.survole {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  padding: 15px 15px 30px 15px;
+  margin: 45px 15px;
+}
+
+.films-arti {
+  font-family: OpenSans-SemiBold;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px 10px 5px;
+  margin-bottom: 20px;
+}
+
+.films-arti > * {
+  flex: 1 1 160px;
+}
+
+.films-arti p {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #000000;
+}
+
+.ui {
+  flex-direction: row;
+  padding: 15px;
+  background: #f6f6f6;
+  margin-left: 10px;
+}
+
+.one {
+  margin-bottom: 10px;
+}
+
+.view-all {
+  background: #000000;
+  font-family: OpenSans-SemiBold;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 24px;
+  padding: 15px 30px;
+  margin: 0px 128px 45px 128px;
+}
+
+.about-fetival h3 {
+  font-family: OpenSans-SemiBold;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  margin: 0;
+  border-top: #000000 solid;
+}
+
+.about-fetival p {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  margin: 10px 0 10px 0;
+}
+
+footer {
+  background: #f9dde7;
+  padding: 15px;
+}
+
+footer nav {
+  display: flex;
+}
