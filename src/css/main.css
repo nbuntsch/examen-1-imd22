@@ -68,12 +68,12 @@ h1 {
 
 section {
   margin-top: 40px;
-  border-bottom: 5px solid #783df6;
 }
 
 .text-image {
   background-color: #f6f6f6;
   padding: 15px;
+  border-bottom: 5px solid #783df6;
 }
 
 .text-image h3 {
