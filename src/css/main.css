@@ -18,6 +18,7 @@
 
 html {
   font-size: 16px;
+  color: black;
 }
 
 body {
@@ -29,16 +30,44 @@ body {
   line-height: 1.25;
 }
 h1 {
-  font: bold;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
   margin: 45px 150px 30px 15px;
+  font-family: OpenSans-Bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+h2 {
+  font-family: OpenSans-SemiBold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  margin: 15px;
+}
+h3 {
+  font-family: OpenSans-SemiBold;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+h4 {
+  font-family: OpenSans-SemiBold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 15px 15px;
 }
 
 a {
-  color: inherit;
-
-  font-family: "Open Sans", sans-serif;
+  font-family: OpenSans-Bold;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+}
+.explore-info {
+  background-color: #f6f6f6;
+}
+.pub {
+  background-color: black;
+  color: white;
 }
 
 img,
@@ -52,6 +81,25 @@ video {
 }
 .footer {
   background-color: #ffdce7;
+}
+p {
+  font-family: OpenSans-Regular;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 15px 15px;
+}
+.descript-film {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #000000;
+}
+button {
+  font-family: OpenSans-SemiBold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  padding: 15px 30px;
+  margin: 30px 0 15px 15px;
 }
 
 /* ====================================
