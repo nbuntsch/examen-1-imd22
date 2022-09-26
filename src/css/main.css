@@ -163,6 +163,14 @@ section {
 }
 
 footer {
+  border-top: 3px solid black;
+  padding: 43px 0 0 15px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
   margin-top: 100px;
   background-color: #f9dee7;
+}
+
+.infos p {
 }
