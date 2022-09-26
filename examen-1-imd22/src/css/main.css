@@ -143,6 +143,15 @@ article p {
   padding: 15px 30px;
 }
 
+.subscribe-button .change-color{
+  background: var(white)
+}
+
+.subscribe-button .purple {
+  background-color: var(#783DF6)
+}
+
+
 .film-title {
   padding: 45px 175px 30px 0px;
 }
