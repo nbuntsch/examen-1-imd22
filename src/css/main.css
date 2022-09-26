@@ -89,6 +89,8 @@ video {
 }
 .footer {
   background-color: #ffdce7;
+  display: flex;
+  flex-direction: row;
 }
 p {
   font-family: OpenSans-Regular;
@@ -96,7 +98,7 @@ p {
   line-height: 28px;
   margin: 15px 15px 15px 15px;
 }
-.descript-film {
+.regular-text {
   font-family: OpenSans-Regular;
   font-size: 16px;
   color: #000000;
@@ -111,12 +113,18 @@ button {
 }
 .flex-container {
   display: flex;
+}
+.block {
   background-color: #f6f6f6;
 }
 .logo-img {
   padding: 10px 20px 10px 20px;
 }
-
+.more {
+  color: #ffffff;
+  background-color: black;
+  margin: 10px 120px 45px 120px;
+}
 /* ====================================
 // base rules
 // ==================================== */
