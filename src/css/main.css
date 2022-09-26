@@ -22,6 +22,9 @@
 html {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+  color: var(--black);
+  max-width: 390px;
+  margin: auto;
 }
 
 body {
@@ -69,4 +72,37 @@ img {
 .container li {
   padding: 10px;
   font-weight: 700;
+}
+
+section {
+  padding: 45px 15px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 38px;
+  padding: 0 160px 30px 0;
+}
+
+article {
+  background-color: var(--light-grey);
+  box-shadow: 0 5px 0 0 #783df6;
+  margin-bottom: 45px;
+}
+
+.big-article {
+  padding: 15px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.big-article h3 {
+  text-align: left;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 15px;
 }
