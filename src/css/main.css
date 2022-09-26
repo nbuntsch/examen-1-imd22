@@ -51,6 +51,8 @@ video {
 // base rules
 // ==================================== */
 
+/* ps : j'ai dû faire des compromis pour que le perfectpixel fonctionne bien ( certaine valeur ne sont pas les mêmes que dans la maquette sketch) */
+
 html {
   scroll-behavior: smooth;
   font-family: var(--font-main);
