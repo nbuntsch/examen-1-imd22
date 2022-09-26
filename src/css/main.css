@@ -60,6 +60,7 @@ video {
 .sticky-banner {
   position: fixed;
   background-color: var(--neutral-dark);
+  z-index: 20;
 }
 
 .banner-background {
