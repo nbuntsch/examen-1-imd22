@@ -1,0 +1,270 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  --neutral-dark: black;
+  --neutral-light: white;
+  --accent-main: #783df6;
+  --accent-secondary: #f9dde7;
+  --article-bg: #f6f6f6;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+  margin: auto;
+  text-align: center;
+  max-width: 390px;
+  box-shadow: 0px 0px 10px #4c4c4c;
+  font-family: "Open Sans";
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+img,
+video {
+  width: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.sticky-banner {
+  position: fixed;
+  background-color: var(--neutral-dark);
+  z-index: 20;
+}
+
+.banner-background {
+  width: 350px;
+  background-color: var(--neutral-dark);
+  margin: 10px 20px;
+}
+
+.pushing-container {
+  padding-top: 95px;
+}
+
+.nav-container {
+  background-color: var(--neutral-light);
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+main {
+  text-align: left;
+}
+
+.big-article-display {
+  margin: 0 15px;
+}
+
+.small-article-display {
+  margin: 0 15px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 38px;
+  padding-top: 45px;
+}
+
+article {
+  background-color: var(--article-bg);
+}
+
+.big-article {
+  margin: 30px 0 50px 0;
+  position: relative;
+  box-shadow: 0 5px 0 0 var(--accent-main);
+}
+
+.big-article h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 15px;
+}
+
+.big-article p {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0px 15px 15px 15px;
+}
+
+.colored-section-title {
+  color: var(--neutral-light);
+  font-weight: 600;
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  background-color: var(--accent-main);
+  padding: 5px 10px;
+}
+
+.dark-article {
+  position: relative;
+}
+
+.dark-article img {
+  height: 355px;
+  position: relative;
+  object-fit: cover;
+}
+
+.dark-rectangle-overlay {
+  position: absolute;
+  top: 45px;
+  left: 15px;
+  width: 360px;
+  height: 265px;
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--neutral-light);
+}
+
+.title-light {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 15px 15px 0px 15px;
+}
+
+.text-light {
+  margin: 10px 15px 0px 15px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.button {
+  display: inline;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button-light {
+  background: var(--neutral-light);
+  color: var(--neutral-dark);
+  margin: 0px 15px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.button-dark {
+  background: var(--neutral-dark);
+  color: var(--neutral-light);
+  margin-bottom: 45px;
+}
+
+.change-color.is-active {
+  display: inline;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: var(--accent-main);
+  color: var(--neutral-light);
+}
+
+.article-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.article-small {
+  width: 175px;
+  height: 297px;
+}
+
+.title-small {
+  margin: 15px 15px 0px 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.article-small p {
+  margin: 15px 15px 0px 15px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+footer {
+  background-color: var(--accent-secondary);
+}
+
+.footer-container {
+  margin: 0px 15px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.footer-container a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  margin-top: 10px;
+}
+
+.left-container {
+  width: 175px;
+  border-top: var(--neutral-dark) solid 3px;
+}
+
+.right-container {
+  width: 175px;
+  border-top: var(--neutral-dark) solid 3px;
+}
