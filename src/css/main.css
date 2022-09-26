@@ -6,7 +6,7 @@
 }
 
 /* ====================================
-// reset rules
+// reset rules / font-family: 'Open Sans', sans-serif;
 // ==================================== */
 
 * {
@@ -31,7 +31,10 @@ body {
   text-align: center;
   margin: auto;
   color: black;
+  font-family: "Open Sans", sans-serif;
 }
+
+/* HEADER */
 
 .header-top {
   background-color: black;
@@ -39,16 +42,24 @@ body {
   padding: 10px;
 }
 
-header {
-  width: 375px;
+a {
+  flex-direction: row;
 }
 
 .header-nav {
+  font-weight: bold;
   padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 a {
   color: inherit;
+  width: 70px;
+}
+
+header {
+  width: 375px;
 }
 
 img,
