@@ -7,6 +7,7 @@
   --neutral-light: white;
   --accent-main: #783df6;
   --accent-secondary: #f9dde7;
+  --article-bg: #f6f6f6;
 }
 
 /* ====================================
@@ -102,4 +103,24 @@ h1 {
   font-size: 32px;
   line-height: 38px;
   padding-top: 45px;
+}
+
+article {
+  background-color: var(--article-bg);
+}
+
+.big-article {
+  margin: 30px 0 0 0;
+  position: relative;
+}
+
+.colored-section-title {
+  color: var(--neutral-light);
+  font-weight: 600;
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  background-color: var(--accent-main);
+  padding: 5px 10px;
 }
