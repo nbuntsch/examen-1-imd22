@@ -116,6 +116,37 @@ h2 {
 
 .news-infos-special {
   padding-bottom: 11px;
+}
+
+/* BFI MEMBERSHIP */
+
+.bfi-membership {
+  background-color: #000;
+  color: #fff;
+  max-width: 390px;
+  padding: 18px 5px 25px 15px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.bfi-membership h3 {
+  font-size: 23px;
+  font-weight: 600px;
+}
+
+.bfi-membership p {
+  padding: 15px 0 44px 0;
+}
+
+.bfi-membership a {
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
 
 footer {
   background-color: #f9dde7;
