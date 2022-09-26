@@ -1,0 +1,95 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+  max-width: 390px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.header-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-logo {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+nav {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38px;
+  margin: 45px 175px 30px 15px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 15px 15px 0px 15px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 15px;
+}
+
+.program-div {
+  background-color: #f6f6f6;
+  margin: 45px 15px;
+  border-bottom: solid 5px;
+  border-color: #783df6;
+}
