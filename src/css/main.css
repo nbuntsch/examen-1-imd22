@@ -14,9 +14,11 @@
   margin: 0;
   padding: 0;
 }
-
 html {
   font-size: 16px;
+  max-width: 390px;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -39,6 +41,87 @@ video {
   vertical-align: middle;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+h1 {
+  background-color: black;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 38px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 19px;
+  margin: 15px 53.5px 15px 60.5px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 24px;
+}
+
+.movie-article-big {
+  background-color: #f6f6f6;
+  margin: 0 15px 45px 15px;
+}
+
+.special-black-bg-article {
+  background-color: black;
+  color: white;
+}
+
+.special-black-bg-article h3 {
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 28px;
+}
+
+.button-1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 24px;
+  background-color: white;
+  border: white solid;
+  padding: 15px 30px;
+  margin: 30px 218px 15px 15px;
+}
+
+.button-2 {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 24px;
+  padding: 15px 30px;
+  justify-content: center;
+}
+
+footer {
+  background-color: #f9dde7;
+}
 /* ====================================
 // base rules
 // ==================================== */
