@@ -116,4 +116,32 @@ h2 {
 
 .news-infos-special {
   padding-bottom: 11px;
+
+footer {
+  background-color: #f9dde7;
+  margin: 30px 0 0;
+  display: flex;
+}
+
+footer h4 {
+  font-weight: 600;
+}
+
+.usefull-infos {
+  font-size: 16px;
+  line-height: 25px;
+  border-top: #000 solid 3px;
+  padding: 10px 0 0;
+}
+
+.festival-infos {
+  margin: 30px 5px 30px 15px;
+}
+
+.tickets-infos {
+  margin: 30px 15px 30px 5px;
+}
+
+ul {
+  list-style-type: none;
 }
