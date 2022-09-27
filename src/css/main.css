@@ -39,6 +39,7 @@ body {
 header {
   position: fixed;
   background-color: white;
+  z-index: 20;
 }
 
 .header-top {
@@ -145,6 +146,7 @@ main {
   background-color: #f6f6f6;
   margin: 0 5px 0;
   text-align: left;
+  max-width: 175px;
 }
 
 .small-text a {
@@ -159,8 +161,11 @@ main {
 
 .content-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  max-width: 175px;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  gap: 10px;
 }
 
 .small-categories img {
@@ -191,10 +196,6 @@ footer {
   color: white;
   background-color: black;
   padding: 15px 20px 15px;
-}
-
-.container-all-1 {
-  flex-wrap: wrap;
 }
 
 .footer-content-container {
