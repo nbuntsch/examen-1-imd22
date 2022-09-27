@@ -54,7 +54,7 @@ a {
 
 .header-nav {
   font-weight: bold;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: center;
 }
@@ -67,7 +67,7 @@ a {
 /* MAIN */
 
 .main-image {
-  width: 360px;
+  width: 390px;
   height: 204px;
 }
 
@@ -190,6 +190,7 @@ main {
 .small-text p {
   padding-top: 15px;
   padding: 15px;
+  line-height: 22px;
 }
 
 .content-container {
@@ -222,17 +223,21 @@ footer {
 .view-all-button {
   display: flex;
   justify-content: center;
+  padding-bottom: 45px;
+  padding-top: 10px;
 }
 
 .view-all-button p {
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 20px;
   color: white;
   background-color: black;
-  padding: 15px 20px 15px;
+  padding: 15px 30px 15px;
 }
 
 .footer-content-container {
   border-top: solid 3px black;
+  text-align: left;
 }
 
 ul {
