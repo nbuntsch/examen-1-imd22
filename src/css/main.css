@@ -121,10 +121,9 @@ main {
   object-fit: contain;
 }
 
-.BFI-container {
+.BFI-container-black {
   color: white;
   text-align: left;
-  height: 355px;
   position: relative;
   object-fit: cover;
 }
@@ -160,6 +159,11 @@ main {
   margin: 0 5px 0;
   text-align: left;
   max-width: 175px;
+}
+
+.small-categories img {
+  object-fit: cover;
+  position: relative;
 }
 
 .small-text a {
