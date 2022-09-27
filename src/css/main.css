@@ -101,6 +101,12 @@ h2 {
   padding-bottom: 30px;
 }
 
+.container-small-info h2 {
+  text-align: left;
+  padding-bottom: 0px;
+  margin: 15px;
+}
+
 main {
   padding-top: 100px;
 }
@@ -118,13 +124,20 @@ main {
 .BFI-container {
   color: white;
   text-align: left;
-  padding-bottom: 15px;
+  height: 355px;
+  position: relative;
+  object-fit: cover;
 }
 
 .content-bfi {
+  height: 265px;
+  width: 360px;
+  left: -5px;
+  top: 5px;
   margin: 20px;
-  background: black;
+  background: rgba(0, 0, 0, 0.5);
   align-content: center;
+  position: absolute;
 }
 
 .button {
@@ -162,10 +175,10 @@ main {
 .content-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
+  margin-top: 30px;
   justify-content: center;
-  gap: 10px;
 }
 
 .small-categories img {
