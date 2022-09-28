@@ -42,3 +42,106 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body p, h3, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  background-color: #000000;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 60.5px;
+  padding-right: 53.5px;
+  justify-content: space-between;
+}
+
+nav p{
+  background-color: white;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  margin: 15px 0px;
+}
+ 
+.explore {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.explore div {
+  background-color: #F6F6F6;
+  box-shadow: 0 5px 0 0 #783DF6;
+  margin-bottom: 45px;
+}
+
+.explore p {
+  padding-bottom: 15px;
+}
+
+h2 {
+  color: #000000;
+  line-height: 38px;
+  font-size: 32px;
+  margin-top: 45px;
+  margin-right: 175px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 15px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.membership {
+  background-color: #000000;
+  padding-bottom: 15px;
+}
+
+.membership p {
+  color: white;
+}
+
+.membership h3 {
+  color: white;
+}
+
+.button {
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.membership .button {
+  color: #000000;
+  margin-right: 214px;
+  margin-top: 30px;
+}
+
+.films {
+  margin: 0px 15px;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+}
+
+.films p {
+  font-size: 16px;
+}
+
+.films h3 {
+  font-size: 16px;
+}
+
