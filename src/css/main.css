@@ -48,6 +48,8 @@ video {
   background-color: black;
   margin: auto;
   padding: 10px 20px;
+  position: fixed;
+  top: 0;
 }
 
 .links {
@@ -153,14 +155,12 @@ footer {
   padding: 45px 15px 30px 15px;
 }
 
-.container {
+.element-desriptions {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  color: #000000;
-  font-size: 16px;
-  color: #000000;
-  line-height: 20px;
-  margin: 15px;
+  flex-wrap: wrap;
+}
+
+.end-descriptions-rest {
+  display: flex;
+  flex-wrap: wrap;
 }
