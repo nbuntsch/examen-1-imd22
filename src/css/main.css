@@ -1,0 +1,247 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  max-width: 390px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+section,
+footer {
+  margin: 0 15px;
+}
+
+main h2 {
+  font-family: "Open Sans bold", sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 45px 0 30px 0;
+}
+
+h3 {
+  font-family: "Open Sans semi-bold", sans-serif;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+.header-background {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  padding: 15px 53.5px 15px 60.5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.movie-card {
+  background-color: ;
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  margin-bottom: 45px;
+  padding: ;
+}
+
+.movie-card img {
+  padding-bottom: 15px;
+}
+.movie-card p {
+  font-size: 20px;
+}
+
+.movie-card h3,
+p {
+  padding: 0 15px 15px;
+}
+
+.membership-section {
+  background-color: black;
+  color: white;
+  font-family: "Open sans", "sans-serif";
+  padding-bottom: 32px;
+}
+
+.membership-section h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 15px;
+  font-family: "Open sans";
+  line-height: 28px;
+}
+
+.membership-section p {
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 50px;
+}
+.membership-section img {
+  padding-bottom: 16px;
+}
+
+.film-card {
+  background: #f6f6f6;
+  max-width: 175px;
+  margin-bottom: 10px;
+}
+
+.film-card h3 {
+  font-family: "Open sans", sans serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.film-card img {
+  padding-bottom: 15px;
+}
+
+.group-film-card {
+  display: flex;
+  align-items: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button {
+  text-decoration: none;
+  padding: 15px 30px;
+  font-family: "Open Sans", "sans serif";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.membership-section .button {
+  background: #ffffff;
+  color: #000000;
+  margin-left: 15px;
+}
+
+section .button {
+  background: #000000;
+  color: #ffffff;
+  margin-left: 113px;
+  margin-right: 113px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: #f9dde7;
+  margin: 0%;
+  padding-top: 30px;
+  margin-top: 45px;
+}
+
+.footer-countainer {
+  margin: 0px 15px;
+  display: flex;
+  align-items: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-countainer p {
+  padding-bottom: 10px;
+  text-justify: left;
+  padding: 0 0 10px;
+}
+
+.paragraph {
+  max-width: 175px;
+  border-top: 3px solid black;
+  padding-top: 10px;
+}
+
+footer h3 {
+  font-size: 16px;
+  font-family: "Open sans";
+  font-weight: 600px;
+}
+
+/* ====================================
+// base rules
+footer {
+  background: #f9dde7;
+  margin: 0%;
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+.footer-countainer p {
+  padding-bottom: 10px;
+}
+
+.paragraph {
+  display: flex;
+  align-items: row;
+  flex-wrap: wrap;
+}
+
+.footer-countainer {
+  display: flex;
+  align-items: row;
+  flex-wrap: wrap;
+}
+// ==================================== */
