@@ -130,6 +130,10 @@ section {
   flex-wrap: wrap;
 }
 
+.films-title {
+  padding-bottom: 30px;
+}
+
 .films {
   margin-bottom: 10px;
   width: 47%;
@@ -163,8 +167,7 @@ section {
 }
 
 footer {
-  border-top: 3px solid black;
-  padding: 43px 0 0 15px;
+  padding: 43px 0 30px 15px;
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: row;
@@ -172,5 +175,11 @@ footer {
   background-color: #f9dee7;
 }
 
+.infos p strong {
+  padding-top: 10px;
+  border-top: 3px solid black;
+}
+
 .infos p {
+  padding-bottom: 10px;
 }
