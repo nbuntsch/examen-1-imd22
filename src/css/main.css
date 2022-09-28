@@ -1,0 +1,197 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+  max-width: 390px;
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.header-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-logo {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+nav {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38px;
+  margin: 45px 175px 30px 15px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 15px 15px 0px 15px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 15px;
+}
+
+.program-div {
+  background-color: #f6f6f6;
+  margin: 45px 15px;
+  border-bottom: solid 5px;
+  border-color: #783df6;
+}
+
+.membership-card {
+  color: white;
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+.membership-card .button {
+  background-color: white;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  padding: 15px 30px;
+  margin-left: 15px;
+}
+
+.membership-card p {
+  margin-bottom: 30px;
+}
+
+.films-card {
+  background-color: #f6f6f6;
+  margin: 0px 10px 10px 0px;
+  width: 173px;
+}
+
+.films-card p {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 15px 0px 15px;
+}
+
+.films-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.films-presentation {
+  margin-left: 10px;
+}
+
+.button {
+  background-color: black;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+  padding: 15px 30px;
+  margin-bottom: 45px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  background-color: #f9dde7;
+  padding: 30px 15px;
+}
+
+footer div {
+  border-top: solid black 5px;
+  /* margin: 0px 10px 0px 0px; */
+  /* width: 170px; */
+  /* pas sur qu on puisse faire ca width*/
+}
+
+.footer-about-part {
+  margin: 0px 10px 0px 0px;
+}
+
+.footer-section-container {
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+footer h4 {
+  padding: 15px 0px;
+}
+
+.section-element-container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px 0 10px;
+}
