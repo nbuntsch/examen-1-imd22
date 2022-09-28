@@ -1,54 +1,236 @@
-# Examen 1 - Intégration de maquette mobile
+# eikon parcel starter
 
-## Objectif
+## Prérequis
 
-Intégrer tous les éléments du fichier Sketch, en étant précis et en utilisant l'environnement de développement appris en classe.
+- Git installé
+- NPM installé
 
-## Ressources inclues dans la consigne
+## Installation
 
-- La maquette au format Sketch
-- Des exports jpg de la maquette
+Cloner le repository git
 
-## Autres ressources disponibles
+```
+git clone git@github.com:eikon-frontend/starterkit.git <nom du projet>
+```
 
-- La documentation du cours et les exercices précédents
-- Vos notes personnelles
-- La documentation trouvable sur internet
+Se rendre dans le dossier du projet, puis installer les dépendances avec NPM
 
-## Ressources exclues
+```
+cd <nom-du-projet>
+npm install
+```
 
-- La communication avec des camarades de classe ou des personnes extérieures
-- L’utilisation de smartphones et de logiciels de messagerie (mail, chat, etc.)
+## Commandes
 
-Le non-respect de ces exceptions sera sanctionné par la note 1.
+Compiler la SCSS, aggréger le JS, lancer le serveur et écouter les changements
 
-## Temps à disposition
+```
+npm run dev
+```
 
-Le projet doit être réalisé sur 6 périodes, du lundi 26.09 au mercredi 28.09.
-Le travail se fait uniquement durant les périodes de frontend development, et pas à la maison.
+Compiler pour la production
 
-**Un commit doit être réalisé à la fin des 4 premières périodes.**
+```
+npm run build
+```
 
-## Etapes
+## Utilisation
 
-1. Créez un fork du repository et clonez-le sur votre ordinateur.
-2. Installez le starterkit à l'aide du terminal.
-3. Intégrez la maquette, en faisant régulièrement des commits.
-4. Une fois l'intégration terminée, publiez votre site (dossier _dist_) sur votre hébergement, dans un sous-dossier _film-festival_
-5. Faites finalement une pull request
+### HTML
 
-## Objectifs avancés
+Inclure un fichier _header.html_ depuis un fichier HTML
 
-Des objectifs avancés (positions et javascript) sont proposés dans la maquette sketch.
+```html
+<include src="components/header.html"></include>
+```
 
-## Barème
+### SCSS
 
-| Critère                                                                     | Points |
-| --------------------------------------------------------------------------- | ------ |
-| Maîtrise de l'environnement de développement (git, starterkit, hébergement) | 4      |
-| Maquette intégrée dans les temps                                            | 4      |
-| Maquette intégrée avec précision                                            | 8      |
-| Réalisation d'un des objectifs avancés                                      | 4      |
-| **Total**                                                                   | **20** |
+Inclure un fichier _main.scss_ depuis un fichier HTML
 
-![](maquette%401x.jpg)
+```html
+<link rel="stylesheet" href="scss/main.scss" />
+```
+
+Inclure un fichier _\_base.scss_ depuis un fichier SCSS
+
+```scss
+@import "base";
+```
+
+### JS
+
+Inclure un fichier _main.js_ depuis un fichier HTML
+
+```html
+<script src="js/main.js"></script>
+```
+
+Inclure un fichier _carousel.js_ depuis un fichier JS
+
+```js
+require("./carousel.js");
+```
+
+## Exemples d'utilisation de packages externes
+
+### [AOS](https://michalsnik.github.io/aos)
+
+Installer le paquet avec NPM
+
+```
+npm install aos@next
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import AOS from "aos";
+```
+
+Inclure la CSS depuis un fichier SCSS
+
+```SCSS
+@import "aos/dist/aos.css";
+```
+
+### [Bootstrap](https://getbootstrap.com)
+
+Installer le paquet avec NPM
+
+```
+npm install bootstrap
+```
+
+Inclure la SCSS depuis un fichier SCSS
+
+```SCSS
+@import "bootstrap/scss/bootstrap-grid";
+```
+
+### [Flickity](https://flickity.metafizzy.co)
+
+Installer le paquet avec NPM
+
+```
+npm install flickity
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import Flickity from "flickity";
+```
+
+Inclure la CSS depuis un fichier SCSS
+
+```SCSS
+@import "flickity/dist/flickity.css";
+```
+
+### [Font Awesome](https://fontawesome.com/)
+
+Installer le paquet avec NPM
+
+```
+npm install @fortawesome/fontawesome-free
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import "@fortawesome/fontawesome-free/js/all.js";
+```
+
+### [GSAP](https://greensock.com/gsap/)
+
+Installer le paquet avec NPM
+
+```
+npm install gsap
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import gsap from "gsap";
+```
+
+Inclure les éventuels plugins
+
+```js
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+```
+
+### [Masonry](https://masonry.desandro.com)
+
+Installer le paquet avec NPM
+
+```
+npm install masonry-layout
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import Masonry from "masonry-layout";
+```
+
+### [ScrollMagic](https://scrollmagic.io)
+
+Installer le paquet avec NPM
+
+```
+npm install scrollmagic
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import ScrollMagic from "scrollmagic";
+```
+
+### [Swiper](https://swiperjs.com)
+
+Installer le paquet avec NPM
+
+```
+npm install swiper@6
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import Swiper, { Navigation, Pagination } from "swiper";
+
+Swiper.use([Navigation, Pagination]);
+```
+
+Inclure la SCSS depuis un fichier SCSS
+
+```SCSS
+@import "swiper/swiper";
+```
+
+### [three.js](https://threejs.org)
+
+Installer le paquet avec NPM
+
+```
+npm install three
+```
+
+Inclure le JS depuis un fichier JS
+
+```js
+import * as THREE from "three";
+```
+
+## Exemple
+
+Un exemple avec l'installation des packages ci-desssus est disponible sur la branche _examples_
+
+```
+git checkout examples
+```
