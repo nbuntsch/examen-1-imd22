@@ -145,3 +145,37 @@ p {
   font-size: 16px;
 }
 
+.films img {
+  width: 175px;
+  height: 100px;
+}
+
+.button-view {
+  background-color: #000000;
+  padding: 15px 30px;
+  color: #F6F6F6;
+  width: 134px;
+  text-align: center;
+  margin: 10px 113px 45px 113px;
+}
+
+footer {
+  background: #F9DDE7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 15px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+footer div {
+  border-top: #000000 3px solid;
+  max-width: 175px;
+}
