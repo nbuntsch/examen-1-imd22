@@ -55,8 +55,15 @@ h1 {
     margin: auto;
 }
 
+section {
+    padding-bottom: 20px;
+    background: #F6F6F6;
+    box-shadow: 0 5px 0 0 #783DF6;
+    margin: 5px;
+}
+
 section img {
-    width: 300px;
+    width: 100%;
 }
 
 section h3 {
@@ -75,14 +82,13 @@ section p {
     color: #000000;
     line-height: 28px;
     padding: 0 0 15px 15px;
-    margin-bottom: 40px;
-    border-bottom: #783DF6;
 }
 
 .BFI {
     background-color: #000000;
     color: white;
     width: 320px;
+    margin-top: 40px;
 }
 
 .BFI img {
@@ -114,30 +120,50 @@ section p {
     padding: 10px 20px 10px 20px;
 }
 
-.films {
-    background-color: #F6F6F6; 
-}
-
 .films img {
-    width: 50%;
+    width: 100%;
 }
 
 .films p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    padding: 10px 10px 10px 5px;
+}
+
+.films h3 { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    padding: 10px 10px 10px 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+}
+
+.section {
+    background-color: #F6F6F6;
+    width: 45%;
+    margin: 5px 5px 5px 5px;
 }
 
 .button-black {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    line-height: 24px;
     font-size: 20px;
     background-color: #000000;
     color: white;
     display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 10px 20px 10px 20px;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 0 40px 100px; 
 }
 
 footer {
@@ -162,12 +188,14 @@ footer p {
 
 .about {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 20px 30px 20px;
+    justify-content: space-around;
+    line-height: 20px;
 }
 
-.booking {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+.elements {
+    width: 50%;
+    border-top: 2px solid black; 
 }
+
