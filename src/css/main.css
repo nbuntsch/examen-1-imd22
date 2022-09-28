@@ -120,6 +120,36 @@ section {
   display: inline-block;
 }
 
+footer {
+  background: #f9dde7;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+.title-word {
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.block-festival {
+  border-top: 3px solid black;
+  margin-right: 10px;
+}
+
+.block-tickets {
+  border-top: 3px solid black;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
