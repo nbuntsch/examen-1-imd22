@@ -53,7 +53,6 @@ h2 {
   font-size: 32px;
   font-weight: 700px;
   line-height: 38px;
-  margin-top: 45px;
   margin-bottom: 30px;
   margin-left: 15px;
 }
@@ -94,12 +93,6 @@ nav {
 }
 
 .special-black-bg-article h3 {
-  font-size: 24px;
-  font-weight: 600px;
-  line-height: 28px;
-}
-
-.special-black-bg-article h3 {
   padding-left: 15px;
   font-size: 24px;
   font-weight: 600px;
@@ -115,12 +108,12 @@ nav {
 
 .button-1 {
   color: black;
+  background-color: white;
+  padding: 15px 30px;
+  margin: 45px 284px 30px 45px;
   font-size: 20px;
   font-weight: 600px;
   line-height: 24px;
-  background-color: white;
-  padding: 15px 30px;
-  margin-left: 0px 0px 15px 15px;
 }
 
 .four-small-article {
