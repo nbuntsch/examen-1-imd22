@@ -43,6 +43,10 @@ video {
 // base rules
 // ==================================== */
 
+body {
+  margin-top: 97px;
+}
+
 body p, h3, h2 {
   font-family: 'Open Sans', sans-serif;
 }
@@ -53,11 +57,23 @@ h1 {
 }
 
 nav {
+  background-color: white;
   display: flex;
   flex-direction: row;
   padding-left: 60.5px;
   padding-right: 53.5px;
   justify-content: space-between;
+}
+
+header .img {
+  max-width: 390px;
+  margin-top: 200px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  background-attachment: fixed;
 }
 
 nav p{
