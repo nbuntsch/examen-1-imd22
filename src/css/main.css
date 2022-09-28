@@ -55,6 +55,7 @@ h2 {
   line-height: 38px;
   margin-top: 45px;
   margin-bottom: 30px;
+  margin-left: 15px;
 }
 
 nav {
@@ -71,6 +72,7 @@ nav {
   background-color: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
   font-size: 20px;
+  margin: 15px;
 }
 
 .movie-article-big h4 {
@@ -129,6 +131,7 @@ nav {
 .small-article {
   background-color: #f6f6f6;
   width: 175px;
+  margin: 5px;
 }
 
 .small-article h5 {
@@ -146,14 +149,18 @@ nav {
 }
 
 .button-2 {
-  background-color: black;
   color: white;
+  text-align: center;
+  margin: 10px 113px 45px 113px;
+  padding: 15px 30px;
+  background-color: black;
+}
+
+.button-2 a {
   font-size: 20px;
   font-weight: 600px;
   line-height: 24px;
-  padding: 15px 30px;
 }
-
 footer {
   background-color: #f9dde7;
 }
