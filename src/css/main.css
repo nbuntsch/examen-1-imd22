@@ -127,7 +127,7 @@ main {
 }
 
 .category-container {
-  padding-bottom: 45px;
+  padding-bottom: 40px;
 }
 
 .category-container-bis {
@@ -141,10 +141,11 @@ main {
 
 .BFI-container-black {
   color: white;
-  font-size: 20px;
+
   text-align: left;
   position: relative;
   object-fit: cover;
+  font-size: 20px;
 }
 
 .content-bfi h2 {
@@ -165,8 +166,8 @@ main {
 .button {
   background-color: white;
   color: black;
-  /* padding: 15px 30px; */
-  font-weight: bold;
+  padding: 15px 10px;
+  font-weight: 600;
   margin-bottom: 15px;
   position: absolute;
   bottom: 0px;
@@ -189,7 +190,7 @@ main {
 
 .small-categories {
   background-color: #f6f6f6;
-  margin: 0 5px 10px 0;
+  margin: 0 5px 5px 0;
   text-align: left;
   max-width: 175px;
 }
@@ -212,7 +213,6 @@ main {
 .content-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 30px;
   justify-content: center;
@@ -231,15 +231,20 @@ video {
 
 /* FOOTER */
 
+.exeption-text {
+  line-height: 20px;
+}
+
 footer {
   background-color: #f9dde7;
-  padding: 25px 10px 25px 10px;
+  padding: 30px 15px 15px 15px;
 }
 
 .view-all-button {
   display: flex;
   justify-content: center;
   padding-bottom: 45px;
+  padding-top: 5px;
 }
 
 .view-all-button p {
@@ -256,16 +261,17 @@ footer {
   flex-direction: row;
 }
 
-ul {
+footer ul {
   list-style: none;
   text-align: left;
+  padding-top: 5px;
 }
 
 .left-side,
 .right-side {
   border-top: solid 3.5px black;
-  margin: 0 10px;
-  padding-top: 10px;
+  margin: 0 5px;
+  padding-top: 5px;
 }
 
 .footer-content-container a {
