@@ -58,6 +58,10 @@ video {
   height: 48px;
 }
 
+header {
+  height: 307px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -77,12 +81,16 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
   padding: 5px 43px 5px 50px;
 }
 
 .container li {
   padding: 10px;
   font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
 }
 
 section {
@@ -109,6 +117,7 @@ h2 {
   text-align: left;
   font-size: 20px;
   line-height: 28px;
+  font-weight: 400;
 }
 
 .big-article h3 {
@@ -116,10 +125,19 @@ h2 {
   font-weight: 600;
   line-height: 24px;
   padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.second {
+  margin-bottom: 0;
 }
 
 article {
   position: relative;
+}
+
+.first-section {
+  height: 935px;
 }
 
 .info {
@@ -132,9 +150,6 @@ article {
   position: absolute;
   top: 0;
   right: 0;
-}
-
-.actress {
 }
 
 .membership {
@@ -162,7 +177,7 @@ article {
 
 .button {
   display: block;
-  padding: 15px 25px;
+  padding: 15px 30px;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -199,6 +214,7 @@ article {
   font-weight: 400;
   font-size: 16px;
   text-align: left;
+  line-height: 22px;
 }
 
 .small-article h3 {
