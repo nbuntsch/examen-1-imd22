@@ -57,6 +57,7 @@ html {
 
 body {
   font-family: 'Open Sans';
+  box-shadow: 0 0 6px 12px rgb(190, 190, 190);
 }
 
 h1 {
@@ -71,7 +72,7 @@ h1 img {
 }
 
 nav {
-  padding: 15px 45px 15px 60px;
+  padding: 15px 55px 15px 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -98,6 +99,7 @@ h2 {
 .programme-infos {
   margin-bottom: 45px;
   background-color: #F6F6F6;
+  box-shadow: 0 5px 0 0 #783DF6;
 }
 
 .programme-infos p,h3 {
@@ -111,11 +113,11 @@ h2 {
 
 .programme-infos h3 {
   font-weight: 600;
-  padding-bottom: 13px;
+  padding-bottom: 12px;
 }
 
 .news-infos-special {
-  padding-bottom: 11px;
+  padding-bottom: 14px;
 }
 
 /* BFI MEMBERSHIP */
@@ -124,7 +126,7 @@ h2 {
   background-color: #000;
   color: #fff;
   max-width: 390px;
-  padding: 18px 5px 25px 15px;
+  padding: 16px 5px 26px 15px;
   font-size: 20px;
   line-height: 28px;
 }
@@ -153,21 +155,21 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
-  margin: 53px 0 36px 15px;
+  margin: 46px 0 30px 15px;
 }
 
 .films-menu {
-  /*padding: 0px 30px 45px 15px;*/
   display: flex;
   flex-direction: row;
-  width: 250%;
+  width: 150%;
+  margin-left: 10px;
 }
 
 .movie-choice {
   background-color: #F6F6F6;
   max-width: 175px;
   max-height: 197px;
-  margin: 0 15px 15px;
+  margin: 0 5px 110px;
 }
 
 .movie-choice h4 {
@@ -202,29 +204,33 @@ h2 {
 
 footer {
   background-color: #f9dde7;
-  margin: 30px 0 0;
+  margin: 45px 0 0;
   display: flex;
 }
 
 footer h4 {
   font-weight: 600;
+  padding-bottom: 7px;
+}
+
+footer li {
+  line-height: 25px;
 }
 
 .usefull-infos {
   font-size: 16px;
-  line-height: 25px;
-  border-top: #000 solid 3px;
+  border-top: rgb(0, 0, 0) solid 3px;
   padding: 10px 0 0;
 }
 
 .festival-infos {
-  margin: 30px 5px 30px 15px;
+  margin: 30px 0 28px 15px;
 }
 
 .tickets-infos {
-  margin: 30px 15px 30px 5px;
+  margin: 30px 15px 28px 5px;
 }
 
-ul {
+ul li {
   list-style-type: none;
 }
