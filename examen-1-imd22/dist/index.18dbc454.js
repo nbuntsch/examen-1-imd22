@@ -532,6 +532,11 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
+const btn = document.getElementById("button-change");
+btn.addEventListener("click", function onClick() {
+    btn.style.backgroundColor = "#783DF6";
+    btn.style.color = "white";
+});
 
 },{}]},["jQVXF","1SICI"], "1SICI", "parcelRequire0300")
 

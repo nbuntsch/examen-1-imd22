@@ -1,9 +1,8 @@
-var buttonCC = document.querySelector('.change-color');
-console.log(buttonCC)
+const btn = document.getElementById('button-change');
 
-var changeColor = function(){
-    document.querySelector('.change-color').classList.add('purple');
-}
-console.log('purple')
+btn.addEventListener('click', function onClick() {
+  btn.style.backgroundColor = '#783DF6';
+  btn.style.color = 'white';
+});
 
-buttonCC.addEventListener('click', changeColor)
+
