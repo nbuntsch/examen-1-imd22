@@ -104,12 +104,15 @@ p {
   background-color: black;
   color: white;
   font-family: "Open Sans", "sans-serif";
+  padding-bottom: 30px;
 }
 
 .membership-section h3 {
   font-size: 24px;
   font-weight: 600;
   margin-left: 15px;
+  font-family: "Open Sans";
+  line-height: 28px;
 }
 
 .membership-section p {
@@ -143,25 +146,22 @@ p {
   text-decoration: none;
   align-items: center;
   padding: 15px 30px;
-  font-family: "Open Sans, sans serif";
+  font-family: "Open Sans", "sans serif";
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+  text-align: center;
 }
+
 .membership-section .button {
-  background: #000000;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
   margin-left: 15px;
 }
 
-.membership-section .button {
+section .button {
   background: #000000;
   color: #ffffff;
-}
-
-section .button {
-  background: #ffffff;
-  color: #000000;
 }
 
 /* ====================================
