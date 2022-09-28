@@ -27,6 +27,8 @@ body {
   max-width: 390px;
   font-size: 1rem;
   line-height: 1.25;
+  margin: auto;
+  background-color: white;
 }
 
 a {
@@ -138,7 +140,7 @@ h3 {
   font-size: 20px;
   color: #ffffff;
   line-height: 28px;
-  margin: 10px 0 31px 0;
+  margin: 10px 0 44px 0;
 }
 
 .arti-bfi a {
@@ -162,38 +164,58 @@ h3 {
   padding: 15px 15px 30px 15px;
   margin: 45px 15px;
 }
+/*
 
-.films-arti {
+
+
+
+
+
+
+
+
+
+*/
+
+.liste-articles-film {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 15px 15px 15px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.films {
+  background-color: #f6f6f6;
+  max-width: 175px;
+}
+
+.text-mini-article {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #000000;
+  padding: 0 15px 15px 15px;
+}
+.films h3 {
   font-family: OpenSans-SemiBold;
   font-size: 16px;
   color: #000000;
   line-height: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 15px 10px 5px;
-  margin-bottom: 20px;
 }
 
-.films-arti > * {
-  flex: 1 1 160px;
-}
+/*
 
-.films-arti p {
-  font-family: OpenSans-Regular;
-  font-size: 16px;
-  color: #000000;
-}
 
-.ui {
-  flex-direction: row;
-  padding: 15px;
-  background: #f6f6f6;
-  margin-left: 10px;
-}
 
-.one {
-  margin-bottom: 10px;
-}
+
+
+
+
+
+
+
+*/
 
 .view-all {
   background: #000000;
@@ -211,7 +233,8 @@ h3 {
   color: #000000;
   line-height: 20px;
   margin: 0;
-  border-top: #000000 solid;
+  padding-top: 10px;
+  border-top: #000000 solid 3px;
 }
 
 .about-fetival p {
@@ -225,8 +248,27 @@ h3 {
 footer {
   background: #f9dde7;
   padding: 15px;
+  margin-top: 45px;
 }
 
 footer nav {
   display: flex;
+}
+
+.tickets h3 {
+  font-family: OpenSans-SemiBold;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  margin: 0;
+  padding-top: 10px;
+  border-top: #000000 solid 3px;
+}
+
+.tickets {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  margin: 10px 0 10px 0;
 }
