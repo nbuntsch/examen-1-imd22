@@ -1,0 +1,257 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --light-grey: #f6f6f6;
+  --purple: #783df6;
+  --pink: #f9dde7;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--black);
+  max-width: 390px;
+  margin: auto;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+/* ====================================
+// base rules
+    font-family: 'Open Sans', sans-serif;
+// ==================================== */
+
+.logo {
+  background-color: var(--black);
+  padding: 10px 20px;
+  height: 48px;
+}
+
+header {
+  height: 307px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  width: 390px;
+}
+
+.poster {
+  padding-top: 97px;
+}
+
+.container {
+  background-color: var(--white);
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 5px 43px 5px 50px;
+}
+
+.container li {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+}
+
+section {
+  padding: 45px 15px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 38px;
+  padding: 0 160px 30px 0;
+}
+
+.first-section article {
+  background-color: var(--light-grey);
+  box-shadow: 0 5px 0 0 #783df6;
+  margin-bottom: 45px;
+}
+
+.big-article {
+  padding: 15px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.big-article h3 {
+  text-align: left;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.second {
+  margin-bottom: 0;
+}
+
+article {
+  position: relative;
+}
+
+.first-section {
+  height: 935px;
+}
+
+.info {
+  color: var(--white);
+  background-color: var(--purple);
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.membership {
+  position: relative;
+  color: var(--white);
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.black-article {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 360px;
+  position: absolute;
+  top: 45px;
+  left: 15px;
+}
+
+.black-article h3 {
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.button {
+  display: block;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.light {
+  color: var(--black);
+  background-color: var(--white);
+  margin: 30px 170px 0 0;
+  max-width: 157px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.second-section img {
+  text-align: left;
+}
+
+.second-section article {
+  background-color: var(--light-grey);
+  width: 175px;
+  margin-bottom: 10px;
+}
+
+.small-article {
+  padding: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  line-height: 22px;
+}
+
+.small-article h3 {
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.dark {
+  background-color: var(--black);
+  color: var(--white);
+  margin: 0 113px 45px;
+}
+
+footer {
+  background-color: var(--pink);
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer h3 {
+  font-weight: 600;
+  line-height: 20px;
+  border-top: solid 3px var(--black);
+  padding: 10px 0 5px;
+  font-size: 16px;
+  width: 175px;
+}
