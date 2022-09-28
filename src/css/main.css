@@ -138,6 +138,7 @@ article {
 }
 
 .membership {
+  position: relative;
   color: var(--white);
   font-size: 20px;
   line-height: 28px;
@@ -145,8 +146,11 @@ article {
 
 .black-article {
   padding: 15px;
-  background-color: var(--black);
+  background-color: rgba(0, 0, 0, 0.7);
   width: 360px;
+  position: absolute;
+  top: 45px;
+  left: 15px;
 }
 
 .black-article h3 {
