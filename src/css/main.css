@@ -1,0 +1,198 @@
+/* ====================================
+// css variabl¡es
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: "Open Sans", sans-serif;
+  max-width: 390px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+header {
+  background: #000000;
+  position: fixed;
+}
+
+header .navigation {
+  background: white;
+}
+
+header img {
+  padding: 10px 20px;
+}
+
+.navigation {
+  word-spacing: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  padding: 15px 53px;
+}
+
+.picture {
+  margin-top: 90px;
+}
+
+h1 {
+  margin: 45px 160px 5px 0;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.views-parent {
+  margin: 15px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+.text-image {
+  background-color: #f6f6f6;
+  padding: 15px;
+  border-bottom: 5px solid #783df6;
+}
+
+.text-image h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.text-image p {
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.special-membership {
+  margin: 45px 0 0 0;
+  padding-bottom: 15px;
+  background-color: black;
+  color: white;
+}
+
+.special-membership h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 16px 15px 15px 15px;
+}
+
+.special-membership p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 15px 30px 15px 15px;
+}
+
+.button {
+  background-color: white;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 15px 30px;
+  margin: 0 0 0 15px;
+  display: inline-block;
+}
+
+.views {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.views img {
+  width: 175px;
+}
+
+.text-section {
+  background-color: #f6f6f6;
+  padding: 15px;
+  width: 175px;
+}
+
+.text-section h4 {
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.button-views {
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 15px 30px;
+  margin: 10px 113px 45px 113px;
+  display: inline-block;
+}
+
+footer {
+  background: #f9dde7;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+.title-word {
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.block-festival {
+  border-top: 3px solid black;
+  margin-right: 10px;
+}
+
+.block-tickets {
+  border-top: 3px solid black;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
