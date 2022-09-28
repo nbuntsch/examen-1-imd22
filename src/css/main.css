@@ -1,0 +1,173 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+/*:root {
+}
+*/
+/* ====================================
+// reset rules
+// ==================================== */
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*/
+html {
+  font-size: 16px;
+  max-width: 390px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+h1 {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 38px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 19px;
+  margin: 15px 53.5px 15px 60.5px;
+}
+
+.movie-article-big {
+  background-color: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.movie-article-big h4 {
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 24px;
+  margin-left: 15px;
+}
+
+.movie-article-big p {
+  line-height: 28px;
+  font-weight: 400px;
+  padding: 0px 15px 15px 15px;
+}
+
+.special-black-bg-article {
+  background-color: black;
+  color: white;
+}
+
+.special-black-bg-article h3 {
+  padding-left: 15px;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 28px;
+}
+
+.special-black-bg-article p {
+  padding: 0px 15px 30px 15px;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+
+.button-1 {
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  margin: 45px 284px 30px 45px;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 24px;
+}
+
+.four-small-article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-article {
+  background-color: #f6f6f6;
+  width: 175px;
+  margin: 5px;
+}
+
+.small-article h5 {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 20px;
+}
+
+.small-article p {
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 22px;
+}
+
+.button-2 {
+  color: white;
+  text-align: center;
+  margin: 10px 113px 45px 113px;
+  padding: 15px 30px;
+  background-color: black;
+}
+
+.button-2 a {
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 24px;
+}
+footer {
+  background-color: #f9dde7;
+}
+
+.two-blocks-footer-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text {
+  border-top: 3px black solid;
+  width: 175px;
+  margin: 30px 15px 30px 15px;
+}
+/* ====================================
+// base rules
+// ==================================== */
