@@ -1,0 +1,283 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules / font-family: 'Open Sans', sans-serif;
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 28px;
+  max-width: 390px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+}
+
+.header-top {
+  background-color: black;
+  width: 390px;
+  padding: 10px;
+}
+
+a {
+  flex-direction: row;
+}
+
+.header-nav {
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: inherit;
+  width: 70px;
+}
+
+/* MAIN */
+
+.main-image {
+  width: 390px;
+  height: 210px;
+}
+
+.main-container h2 {
+  font-size: 32px;
+}
+
+.main-container {
+  padding-top: 45px;
+  margin: 0 20px 0 20px;
+}
+
+.category-container {
+  position: relative;
+}
+
+.programme-section {
+  background-color: #783df6;
+  color: white;
+  position: absolute;
+  padding: 0px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  right: 0;
+}
+
+.subtitle {
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.board-information {
+  background-color: #f6f6f6;
+  padding: 15px;
+  text-align: left;
+  border-bottom: solid 5px #783df6;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: left;
+  padding-bottom: 30px;
+  line-height: 38px;
+}
+
+.container-small-info h2 {
+  text-align: left;
+  padding-bottom: 0px;
+  margin: 0 15px;
+  font-size: 32px;
+  padding-top: 45px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.category-container {
+  padding-bottom: 40px;
+}
+
+.category-container-bis {
+  padding-bottom: 10px;
+}
+
+.img-bfi {
+  height: 355px;
+  object-fit: cover;
+}
+
+.BFI-container-black {
+  color: white;
+
+  text-align: left;
+  position: relative;
+  object-fit: cover;
+  font-size: 20px;
+}
+
+.content-bfi h2 {
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.content-bfi {
+  height: 265px;
+  top: 25px;
+  margin: 20px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  align-content: center;
+  position: absolute;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 15px 10px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  position: absolute;
+  bottom: 0px;
+  width: 157px;
+  height: 54px;
+  text-align: center;
+}
+
+.button-container {
+  padding-top: 50px;
+}
+
+.container-small-info {
+  flex-wrap: initial;
+}
+
+.content-container {
+  gap: 5px;
+}
+
+.small-categories {
+  background-color: #f6f6f6;
+  margin: 0 5px 5px 0;
+  text-align: left;
+  max-width: 175px;
+}
+
+.small-categories img {
+  object-fit: cover;
+  position: relative;
+}
+
+.small-text a {
+  font-weight: bold;
+  padding: 10px 10px 0 10px;
+}
+
+.small-text p {
+  padding: 0 15px 15px 15px;
+  line-height: 22px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.small-categories img {
+  padding-bottom: 15px;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* FOOTER */
+
+.exeption-text {
+  line-height: 20px;
+}
+
+footer {
+  background-color: #f9dde7;
+  padding: 30px 15px 15px 15px;
+}
+
+.view-all-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 45px;
+  padding-top: 5px;
+}
+
+.view-all-button p {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 15px 30px 15px;
+}
+
+.footer-content-container {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul {
+  list-style: none;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.left-side,
+.right-side {
+  border-top: solid 3.5px black;
+  margin: 0 5px;
+  padding-top: 5px;
+}
+
+.footer-content-container a {
+  font-weight: 600;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
