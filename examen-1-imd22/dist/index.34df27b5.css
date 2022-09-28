@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  max-width: 390px;
+  margin: auto;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img, video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+.logo-bg {
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+header {
+  z-index: 100000;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+h1 {
+  padding: 45px 175px 30px 15px;
+  font-family: Open Sans, sans-serif;
+  font-size: 32px;
+}
+
+nav {
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 53.5px 15px 60.5px;
+  display: flex;
+}
+
+article {
+  background-color: #f6f6f6;
+  margin: 0 15px 45px;
+  box-shadow: 0 5px #783df6;
+}
+
+.container {
+  position: relative;
+}
+
+.vignette {
+  color: #fff;
+  background-color: #783df6;
+  padding: 5px 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+article h3 {
+  padding: 15px 15px 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+article p {
+  padding: 15px 15px 15px 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.membership {
+  background-color: #000;
+}
+
+.membership h2 {
+  color: #fff;
+  padding: 15px;
+  font-family: Open Sans, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.membership p {
+  color: #fff;
+  padding: 0 15px;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.subscribe-button-envelope {
+  text-align: center;
+  padding: 45px 203px 30px 0;
+}
+
+.subscribe-button {
+  color: #000;
+  background-color: #fff;
+  padding: 15px 30px;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.subscribe-button:hover {
+  color: #fff;
+  background-color: #783df6;
+}
+
+.film-title {
+  padding: 45px 175px 30px 0;
+}
+
+.films {
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
+  display: flex;
+}
+
+.films div {
+  max-width: 175px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.films div h4 {
+  padding: 15px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.films div p {
+  padding: 0 15px 15px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.films a {
+  color: #fff;
+  background: #000;
+  margin: 0 113px 45px;
+  padding: 15px 30px;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f9dde7;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 15px;
+  display: flex;
+}
+
+footer div {
+  max-width: 175px;
+  border-top: 3px solid #000;
+  flex-flow: column wrap;
+  display: flex;
+}
+
+footer a {
+  padding-top: 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer p {
+  padding-top: 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=index.34df27b5.css.map */
