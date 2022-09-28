@@ -55,7 +55,6 @@ h2 {
   line-height: 38px;
   margin-top: 45px;
   margin-bottom: 30px;
-  margin-left: 15px;
 }
 
 nav {
@@ -68,12 +67,6 @@ nav {
   margin: 15px 53.5px 15px 60.5px;
 }
 
-h4 {
-  font-size: 20px;
-  font-weight: 600px;
-  line-height: 24px;
-}
-
 .movie-article-big {
   background-color: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
@@ -81,10 +74,10 @@ h4 {
 }
 
 .movie-article-big h4 {
-  line-height: 24px;
+  font-size: 20px;
   font-weight: 600px;
-  margin: ;
-  padding-left: 15px;
+  line-height: 24px;
+  margin-left: 15px;
 }
 
 .movie-article-big p {
@@ -135,8 +128,7 @@ h4 {
 
 .small-article {
   background-color: #f6f6f6;
-  max-width: 175px;
-  margin: 0px 15px 10px 15px;
+  width: 175px;
 }
 
 .small-article h5 {
@@ -168,9 +160,14 @@ footer {
 
 .two-blocks-footer-text {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
+.footer-text {
+  border-top: 3px black solid;
+  width: 175px;
+  margin: 30px 15px 30px 15px;
+}
 /* ====================================
 // base rules
 // ==================================== */
