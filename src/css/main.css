@@ -112,7 +112,9 @@ h2 {
 .container-small-info h2 {
   text-align: left;
   padding-bottom: 0px;
-  margin: 15px;
+  margin: 0 15px;
+  font-size: 32px;
+  padding-top: 45px;
 }
 
 main {
@@ -188,7 +190,6 @@ main {
 }
 
 .small-text p {
-  padding-top: 15px;
   padding: 15px;
   line-height: 22px;
 }
@@ -236,13 +237,20 @@ footer {
 }
 
 .footer-content-container {
-  border-top: solid 3px black;
   text-align: left;
+  display: flex;
+  flex-direction: row;
 }
 
 ul {
   list-style: none;
   text-align: left;
+}
+
+.left-side,
+.right-side {
+  border-top: solid 3.5px black;
+  margin: 10px;
 }
 
 /* ====================================
