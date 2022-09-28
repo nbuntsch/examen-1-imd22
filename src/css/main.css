@@ -1,0 +1,188 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background-color: #606060;
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+  max-width: 390px;
+  margin: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+h1 {
+  padding: 10px 20px;
+  background-color: black;
+}
+
+nav {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding: 15px 60.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2 {
+  padding: 45px 175px 30px 15px;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.programme {
+  border-bottom: 5px solid blue;
+  margin-bottom: 45px;
+  background-color: #f6f6f6;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.programme h3 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.programme p {
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.BFI-membership {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+.BFI-membership h3 {
+  font-size: 24px;
+  padding: 16px 15px 0 15px;
+}
+
+.BFI-membership p {
+  font-size: 20px;
+  padding: 15px 15px 30px 15px;
+}
+
+.BFI-membership a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 45px;
+  padding-left: 15px;
+}
+
+section {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.films-title {
+  padding-bottom: 30px;
+}
+
+.films {
+  margin-bottom: 25px;
+  width: 47%;
+  margin-right: 10px;
+  background-color: #f6f6f6;
+}
+
+.films h4 {
+  font-weight: 600px;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.films p {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 15px 15px 15px;
+  font-size: 16px;
+}
+
+.view-all a {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 604px;
+  left: 130px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+footer {
+  padding: 45px 0 30px 15px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-top: 85px;
+  background-color: #f9dee7;
+}
+
+.infos p strong {
+  padding-top: 10px;
+  border-top: 3px solid black;
+}
+
+.infos p {
+  padding-bottom: 10px;
+}
