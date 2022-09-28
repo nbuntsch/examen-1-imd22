@@ -75,9 +75,20 @@ nav {
   justify-content: space-between;
 }
 
+nav a {
+  text-decoration: none;
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  font-weight: 700;
+}
+
 h2 {
   font-size: 16px;
-  font-family: "Open Sans bold", "sans-serif";
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
 }
 
 .movie-card {
@@ -103,22 +114,22 @@ p {
 .membership-section {
   background-color: black;
   color: white;
-  font-family: "Open Sans", "sans-serif";
-  padding-bottom: 30px;
+  font-family: "Open sans", "sans-serif";
+  padding-bottom: 32px;
 }
 
 .membership-section h3 {
   font-size: 24px;
   font-weight: 600;
   margin-left: 15px;
-  font-family: "Open Sans";
+  font-family: "Open sans";
   line-height: 28px;
 }
 
 .membership-section p {
   font-size: 20px;
   line-height: 28px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .membership-section img {
   padding-bottom: 16px;
@@ -126,9 +137,13 @@ p {
 
 .film-card {
   background: #f6f6f6;
+  max-width: 175px;
+  margin-bottom: 10px;
 }
 
 .film-card h3 {
+  font-family: "Open sans", sans serif;
+  font-weight: 600;
   font-size: 16px;
   padding-left: 15px;
 }
@@ -140,11 +155,12 @@ p {
 .group-film-card {
   display: flex;
   align-items: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .button {
   text-decoration: none;
-  align-items: center;
   padding: 15px 30px;
   font-family: "Open Sans", "sans serif";
   font-weight: 600;
@@ -162,12 +178,18 @@ p {
 section .button {
   background: #000000;
   color: #ffffff;
+  margin-left: 113px;
+  margin-right: 113px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
   background: #f9dde7;
   margin: 0%;
   padding-top: 30px;
+  margin-top: 45px;
 }
 
 .footer-countainer {
