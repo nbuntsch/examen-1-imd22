@@ -77,7 +77,7 @@ nav {
 
 h2 {
   font-size: 16px;
-  font-family: "Open Sans bold", sans-serif;
+  font-family: "Open Sans bold", "sans-serif";
 }
 
 .movie-card {
@@ -103,7 +103,7 @@ p {
 .membership-section {
   background-color: black;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "sans-serif";
 }
 
 .membership-section h3 {
@@ -138,6 +138,32 @@ p {
   display: flex;
   align-items: row;
 }
+
+.button {
+  text-decoration: none;
+  align-items: center;
+  padding: 15px 30px;
+  font-family: "Open Sans, sans serif";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.membership-section .button {
+  background: #000000;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.membership-section .button {
+  background: #000000;
+  color: #ffffff;
+}
+
+section .button {
+  background: #ffffff;
+  color: #000000;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
