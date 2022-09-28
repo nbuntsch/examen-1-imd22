@@ -80,6 +80,10 @@ a {
   margin: 0 20px 0 20px;
 }
 
+.category-container {
+  position: relative;
+}
+
 .programme-section {
   background-color: #783df6;
   color: white;
@@ -87,6 +91,7 @@ a {
   padding: 0px 10px;
   font-size: 14px;
   font-weight: 600;
+  right: 0;
 }
 
 .subtitle {
@@ -172,9 +177,13 @@ main {
   flex-wrap: initial;
 }
 
+.content-container {
+  gap: 5px;
+}
+
 .small-categories {
   background-color: #f6f6f6;
-  margin: 0 5px 0;
+  margin: 0 5px 10px 0;
   text-align: left;
   max-width: 175px;
 }
@@ -218,7 +227,7 @@ video {
 
 footer {
   background-color: #f9dde7;
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
 }
 
 .view-all-button {
@@ -251,6 +260,11 @@ ul {
 .right-side {
   border-top: solid 3.5px black;
   margin: 10px;
+  padding-top: 10px;
+}
+
+.footer-content-container a {
+  font-weight: 600;
 }
 
 /* ====================================
