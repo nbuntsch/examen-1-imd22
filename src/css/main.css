@@ -51,7 +51,7 @@ h3 {
   font-size: 16px;
   color: #000000;
   line-height: 20px;
-  margin: 15px;
+  margin: 15px 35px 10px 10px;
 }
 h4 {
   font-family: OpenSans-SemiBold;
@@ -70,7 +70,13 @@ a:link {
   text-decoration: none;
 }
 nav {
-  padding: 15px 20px 15px 51px;
+  padding: 15px 20px 15px 45px;
+}
+.new {
+  background-color: #f6f6f6;
+  margin: 0px 15px 43px 15px;
+  padding-bottom: 15px;
+  box-shadow: 0px 5px 5px 0px #8139ff;
 }
 article {
   background-color: #f6f6f6;
@@ -134,16 +140,23 @@ button {
 .more {
   color: #ffffff;
   background-color: black;
-  margin: 10px 120px 45px 120px;
+  margin: 10px 120px 45px 110px;
+  align-items: center;
 }
 .regular-text {
   font-family: OpenSans-Regular;
   font-size: 16px;
-  margin: 10px;
+  margin: 10px 10px 10px 15px;
 }
 br {
   margin: 0;
 }
+strong {
+  font-size: 2.75rem;
+  font-weight: normal;
+  line-height: 3rem;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
