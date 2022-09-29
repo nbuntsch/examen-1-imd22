@@ -1,0 +1,162 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+h1 {
+  margin: 45px 150px 30px 15px;
+  font-family: OpenSans-Bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+h2 {
+  font-family: OpenSans-SemiBold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  margin: 15px;
+}
+h3 {
+  font-family: OpenSans-SemiBold;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  margin: 15px 35px 10px 10px;
+}
+h4 {
+  font-family: OpenSans-SemiBold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 15px 15px;
+}
+
+a:link {
+  font-family: OpenSans-Bold;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  padding: 0 20px 0 0px;
+  text-decoration: none;
+}
+nav {
+  padding: 15px 20px 15px 45px;
+}
+.new {
+  background-color: #f6f6f6;
+  margin: 0px 15px 43px 15px;
+  padding-bottom: 15px;
+  box-shadow: 0px 5px 5px 0px #8139ff;
+}
+article {
+  background-color: #f6f6f6;
+  margin: 0px 15px 43px 15px;
+  padding-bottom: 15px;
+}
+.pub {
+  background-color: black;
+  color: white;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+.logo {
+  background-color: black;
+}
+.footer {
+  background-color: #ffdce7;
+  display: flex;
+  flex-direction: row;
+}
+p {
+  font-family: OpenSans-Regular;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 15px 15px 15px 15px;
+}
+.regular-text {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #000000;
+}
+button {
+  font-family: OpenSans-SemiBold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  padding: 15px 30px;
+  margin: 30px 0 15px 15px;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+}
+.block {
+  background-color: #f6f6f6;
+  margin: 0;
+  margin: 10px 10px;
+}
+.logo-img {
+  padding: 10px 20px 10px 20px;
+}
+.more {
+  color: #ffffff;
+  background-color: black;
+  margin: 10px 120px 45px 110px;
+  align-items: center;
+}
+.regular-text {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  margin: 10px 10px 10px 15px;
+}
+br {
+  margin: 0;
+}
+strong {
+  font-size: 2.75rem;
+  font-weight: normal;
+  line-height: 3rem;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
