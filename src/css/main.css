@@ -1,0 +1,170 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.logo-header {
+  background-color: black;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.links {
+  text-align: center;
+  margin: 15px 53.5px 15px 53.5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.position-header {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+}
+
+h1 {
+  margin: 40px 130px 30px 15px;
+}
+
+.light-grey {
+  background-color: #f6f6f6;
+  margin: 45px 15px 45px 15px;
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  font-size: 20px;
+  color: #000000;
+  line-height: 28px;
+}
+
+.galas {
+  display: flex;
+  justify-content: center;
+}
+
+.title-img {
+  margin: 15px;
+  font-weight: 700;
+}
+
+.descriptions-img {
+  margin: 15px;
+  font-weight: 400;
+}
+
+.img-friends {
+  display: flex;
+  justify-content: center;
+}
+
+.background-dark {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.link {
+  display: flex;
+  background: #ffffff;
+  font-size: 20px;
+  padding: 15px 30px 15px 30px;
+  margin: 30px 218px 15px 15px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 45px 290px 30px 15px;
+}
+
+h3 {
+  margin: 15px;
+}
+
+.element-desriptions {
+  margin: 15px;
+  display: flex;
+}
+
+.img-films {
+  margin: 15px;
+}
+
+.end-link {
+  display: flex;
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 30px 15px 30px;
+  margin: 10px 128px 30px 128px;
+}
+
+.end-descriptions {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.end-descriptions-rest {
+  font-size: 16px;
+}
+
+footer {
+  background: #f9dde7;
+  padding: 45px 15px 30px 15px;
+}
+
+.element-desriptions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.end-descriptions-rest {
+  display: flex;
+  flex-wrap: wrap;
+}
