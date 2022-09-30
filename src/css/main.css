@@ -48,8 +48,6 @@ video {
   background-color: black;
   margin: auto;
   padding: 10px 20px;
-  position: fixed;
-  top: 0;
 }
 
 .links {
@@ -58,6 +56,12 @@ video {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 28px;
+}
+
+.position-header {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
 }
 
 h1 {
