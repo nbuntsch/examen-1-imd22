@@ -1,0 +1,298 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --color-main: #000;
+  --color-second: #fff;
+  --color-sat: #f6f6f6;
+  --color-enhanced: #783df6;
+  --color-enhanced-2: #f9dde7;
+  --font-main: "Open Sans", sans-serif;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+/* ps : j'ai dû faire des compromis pour que le perfectpixel fonctionne bien ( certaine valeur ne sont pas les mêmes que dans la maquette sketch) */
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-main);
+}
+
+body {
+  width: 390px;
+  margin: auto;
+}
+
+header {
+  background-color: var(--color-main);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-second);
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  margin: 10px auto;
+}
+
+header nav {
+  background-color: var(--color-second);
+  color: var(--color-main);
+  width: 100%;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
+header nav ul li {
+  margin-right: 22px;
+}
+
+header nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.line-up,
+.films {
+  padding: 45px 15px 40px;
+}
+
+.line-up h2,
+.films h2 {
+  font-size: 32px;
+}
+
+.line-up h2 {
+  margin-bottom: 30px;
+  line-height: 38px;
+}
+
+.article-line-up {
+  background-color: var(--color-sat);
+  border-bottom: solid 5px var(--color-enhanced);
+  margin: 0 0 38px;
+  cursor: pointer;
+}
+
+.article-line-up p {
+  line-height: 28px;
+}
+
+.data-article {
+  padding: 15px;
+}
+
+.data-article h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.data-article p {
+  font-size: 20px;
+}
+
+.article-line-up:last-of-type {
+  margin: 0;
+}
+
+.member-hiring {
+  background-color: var(--color-main);
+  color: var(--color-second);
+}
+
+.member-hiring-card {
+  padding: 15px;
+}
+
+.member-hiring-card .member-hire-button {
+  background-color: var(--color-second);
+  color: var(--color-main);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-size: 20px;
+  margin: 30px 0 0;
+  display: inline-block;
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.member-hire-button:hover,
+.member-hire-button:active,
+.member-hire-button:focus {
+  background-color: var(--color-enhanced);
+  color: var(--color-second);
+}
+.member-hiring-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0 0 15px;
+}
+
+.member-hiring-card p {
+  font-size: 20px;
+  margin: 0;
+  line-height: 28px;
+}
+
+.films h2 {
+  margin: 0 0 27px;
+  line-height: 38px;
+}
+
+.films .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.article-films {
+  background-color: var(--color-sat);
+  width: 175px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.article-films img {
+  margin-bottom: 15px;
+}
+
+.article-films h3,
+.article-films p {
+  margin: 0 15px;
+}
+
+.article-films h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+
+.article-films p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.films {
+  padding: 45px 15px 45px;
+}
+
+.films a {
+  display: inline-block;
+  margin: auto;
+  background-color: var(--color-main);
+  color: var(--color-second);
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+footer {
+  background-color: var(--color-enhanced-2);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.link-ls {
+  border-top: solid 3px var(--color-main);
+  margin: 10px 10px 0 0;
+}
+
+.link-ls:last-of-type {
+  margin-right: 0;
+}
+
+.link-ls ul {
+  list-style-type: none;
+}
+
+.link-ls h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.link-ls li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.link-ls li:last-of-type {
+  margin-bottom: 0;
+}
+
+.hidden-tmp,
+.hidden-tmp-2 {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.show-all {
+  user-select: none;
+  cursor: pointer;
+}
